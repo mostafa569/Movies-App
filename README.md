@@ -1,30 +1,46 @@
-Overview
-A responsive web application for browsing movies and TV shows with multi-language support, wishlist functionality, and detailed information pages with recommendations.
+# 🎬 Multilingual Movies & TV Shows App
 
-Features
-Browse popular movies and TV shows
+[![Live Demo](https://img.shields.io/badge/demo-live-green)](https://movies-app-one-eta.vercel.app/)
 
-Multi-language support (English, Arabic, French, Chinese)
+A responsive React application built with Vite for browsing movies and TV shows with:
+- 🌍 4 language support (English, Arabic, French, Chinese)
+- ❤️ Wishlist functionality with counters
+- 🎥 Detailed pages with recommendations
+- 📱 Fully responsive design
 
-Add items to wishlist
+## 🚀 Features
 
-View detailed information about each title
+- Browse popular/trending movies & TV shows
+- RTL/LTR language support
+- Add to wishlist with counters
+- View similar recommendations
+- Clean, modern UI with animations
 
-See recommendations based on selected titles
+## 🛠️ Tech Stack
 
-Responsive design for all devices
+- React + Vite
+- Context API (State Management)
+- TMDB API (Data)
+- React Router 
+- Styled Components
+- Lucide React Icons
+ 
 
-Technologies Used
-React (with Vite)
+## 🌐 Live Demo
 
-React Router
+Check out the live version: [https://movies-app-one-eta.vercel.app/](https://movies-app-one-eta.vercel.app/)
 
-Context API (for state management)
+## 🛠️ Installation
 
-Lucide React (for icons)
+1. Clone repo:
+```bash
+git clone https://github.com/mostafa569/Movies-App.git
+```
+2. Install dependencies:
+   npm install
+  
+3. Add TMDB API key in .env:
+   VITE_TMDB_API_KEY=your_api_key_here
 
-Styled Components (for styling)
-
-TMDB API (for movie/TV show data)
-
-Installatio
+4. Run dev server:
+   npm run dev

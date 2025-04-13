@@ -1,3 +1,6 @@
+Here's the cleaned-up version with proper Markdown formatting for your README.md:
+
+```markdown
 # 🎬 Multilingual Movies & TV Shows App
 
 [![Live Demo](https://img.shields.io/badge/demo-live-green)](https://movies-app-one-eta.vercel.app/)
@@ -21,10 +24,9 @@ A responsive React application built with Vite for browsing movies and TV shows 
 - React + Vite
 - Context API (State Management)
 - TMDB API (Data)
-- React Router 
+- React Router
 - Styled Components
 - Lucide React Icons
- 
 
 ## 🌐 Live Demo
 
@@ -35,12 +37,21 @@ Check out the live version: [https://movies-app-one-eta.vercel.app/](https://mov
 1. Clone repo:
 ```bash
 git clone https://github.com/mostafa569/Movies-App.git
+cd Movies-App
 ```
+
 2. Install dependencies:
-   npm install
-  
-3. Add TMDB API key in .env:
-   VITE_TMDB_API_KEY=your_api_key_here
+```bash
+npm install
+```
+
+3. Add TMDB API key in `.env`:
+```env
+VITE_TMDB_API_KEY=your_api_key_here
+```
 
 4. Run dev server:
-   npm run dev
+```bash
+npm run dev
+```
+
